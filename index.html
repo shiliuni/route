@@ -11,4 +11,16 @@
     <h2>route</h2>
     
 </body>
+
+<script>
+    const url=[
+        "https://github.com/shiliuni/IMPLSwap0",
+        "https://github.com/shiliuni/IMPLSwap1",
+        "https://github.com/shiliuni/IMPLSwap2"
+    ]
+    let index=Date.now()%url.length;
+    console.log(index);
+    console.log(url[index]);
+    window.location.href =(url[index]);
+</script>
 </html>
